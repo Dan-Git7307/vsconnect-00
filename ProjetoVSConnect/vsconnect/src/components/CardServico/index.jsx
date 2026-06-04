@@ -27,7 +27,7 @@ function CardServico(props) {
                 {verificaValor().toLocaleString(
                     "pt-BR",
                     {
-                        style: "currency"
+                        style: "currency",
                         currency: "BRL"
                     }
                 )}
